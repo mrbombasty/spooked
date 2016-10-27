@@ -1,0 +1,171 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/*$primary-color: #f4787f;*/
+$primary-color: #41C6EA;
+$main-font: 'Poppins', sans-serif;
+$body-color: #fff;
+$btn-transition: 0.2s;
+
+body{
+	background-color: $primary-color;
+}
+
+h1, h2, h3, h4, h5, p, a, ol li,ul li,li{
+	font-family: $main-font;
+	font-weight: 300;
+	color: $body-color;
+}
+
+a:hover{
+	color:$body-color;
+	cursor: pointer;
+}
+
+p{
+	font-size: 22px;
+}
+
+h1{
+	font-size: 70px;
+	text-align: center;
+	line-height: 1.5;
+}
+
+h2{
+	font-size: 35px;
+	text-align: center;
+}
+
+.link,{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+.btn{
+	padding: 15px 0;
+	background-color: #F6F6F6;
+	color: #223954;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border: none;
+	.navbar-nav{
+			li{
+				a{
+					color: $body-color;
+					padding: 39px 15px 15px;
+				}
+			}
+		}
+	.navbar-header{
+		.navbar-brand{
+			color: $body-color;
+			padding: 39px 15px 15px;
+			font-weight:700;
+		}
+	}
+}
+
+.intro{
+	img{
+		margin: 99px 0 218px;
+
+	}
+}
+
+.getitnow{
+	padding-top: 100px;
+	.echorender-container{
+		.echorender{
+			position: absolute;
+			margin-top: 221px;
+		}	
+		.boyrender{
+			margin-top: 113px;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			-moz-transform: translateX(-50%);
+			-o-transform: translateX(-50%);
+			transform: translateX(-50%);
+			position: absolute;
+		}
+	}
+	p{
+		text-align: center;
+		margin-top: 591px;
+	}
+	h1{
+		font-size: 66px;
+		text-align: center;
+		margin: 0px 0 30px;
+	}
+
+}
+
+.quote{
+	h1{
+		margin-top: 88px;
+		margin-bottom: 40px;
+	}
+	p{
+		font-size: 22px;
+		text-align: center;
+	}
+}
+
+.sayhey{
+	.spaceman-container{
+		.ghostrender{
+			position: absolute;
+			margin-top: 221px;
+			right: 0;
+		}	
+		.spacemanrender{
+			margin-top: 113px;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			-moz-transform: translateX(-50%);
+			-o-transform: translateX(-50%);
+			transform: translateX(-50%);
+			position: absolute;
+		}
+	}
+		h1{
+			margin-top: 666px; 
+			margin-bottom: 80px;
+		}
+		.sayhey-containers{
+			h2, p{
+				font-size: 35px;
+				text-align: center;
+			}
+			p{
+				line-height: 1.5;
+				margin-top: 35px;
+			}
+		}
+}
+
+.social{
+	h1{
+		margin-top: 220px;
+		margin-bottom: 50px;
+	}
+}
+
+.footer{
+	margin: 260px 0;
+}
+
+
+
