@@ -60,10 +60,10 @@ h2{
 	background-color: transparent;
 	border: none;
 	.navbar-nav{
-			li{
+			li{	
 				a{
-					color: $body-color;
-					padding: 39px 15px 15px;
+					padding: 0;
+					
 				}
 			}
 		}
@@ -74,6 +74,18 @@ h2{
 			font-weight:700;
 		}
 	}
+	.navbar-right{
+		.btn{
+			width: 200px;
+			margin-top: 25px;
+			a{
+				color: #223954;
+				font-weight: 700;
+				font-size: 16px;
+			}
+		}
+	}
+
 }
 
 .intro{

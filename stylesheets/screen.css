@@ -63,8 +63,7 @@ h2 {
 }
 /* line 64, ../sass/screen.scss */
 .navbar-default .navbar-nav li a {
-  color: #fff;
-  padding: 39px 15px 15px;
+  padding: 0;
 }
 /* line 71, ../sass/screen.scss */
 .navbar-default .navbar-header .navbar-brand {
@@ -72,22 +71,33 @@ h2 {
   padding: 39px 15px 15px;
   font-weight: 700;
 }
+/* line 78, ../sass/screen.scss */
+.navbar-default .navbar-right .btn {
+  width: 200px;
+  margin-top: 25px;
+}
+/* line 81, ../sass/screen.scss */
+.navbar-default .navbar-right .btn a {
+  color: #223954;
+  font-weight: 700;
+  font-size: 16px;
+}
 
-/* line 80, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .intro img {
   margin: 99px 0 218px;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .getitnow {
   padding-top: 100px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .getitnow .echorender-container .echorender {
   position: absolute;
   margin-top: 221px;
 }
-/* line 93, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .getitnow .echorender-container .boyrender {
   margin-top: 113px;
   left: 50%;
@@ -97,36 +107,36 @@ h2 {
   transform: translateX(-50%);
   position: absolute;
 }
-/* line 103, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .getitnow p {
   text-align: center;
   margin-top: 591px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .getitnow h1 {
   font-size: 66px;
   text-align: center;
   margin: 0px 0 30px;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .quote h1 {
   margin-top: 88px;
   margin-bottom: 40px;
 }
-/* line 120, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .quote p {
   font-size: 22px;
   text-align: center;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .sayhey .spaceman-container .ghostrender {
   position: absolute;
   margin-top: 221px;
   right: 0;
 }
-/* line 133, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .sayhey .spaceman-container .spacemanrender {
   margin-top: 113px;
   left: 50%;
@@ -136,36 +146,36 @@ h2 {
   transform: translateX(-50%);
   position: absolute;
 }
-/* line 143, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .sayhey h1 {
   margin-top: 666px;
   margin-bottom: 80px;
 }
-/* line 148, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .sayhey .sayhey-containers h2, .sayhey .sayhey-containers p {
   font-size: 35px;
   text-align: center;
 }
-/* line 152, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .sayhey .sayhey-containers p {
   line-height: 1.5;
   margin-top: 35px;
   margin-bottom: 110px;
 }
 
-/* line 161, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .social h1 {
   margin-top: 110px;
   margin-bottom: 50px;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .footer {
   margin: 260px 0;
 }
 
 @media (max-width: 768px) {
-  /* line 172, ../sass/screen.scss */
+  /* line 184, ../sass/screen.scss */
   h1 {
     font-size: 50px;
   }
