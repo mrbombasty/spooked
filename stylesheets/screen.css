@@ -179,4 +179,16 @@ h2 {
   h1 {
     font-size: 50px;
   }
+
+  /* line 187, ../sass/screen.scss */
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 191, ../sass/screen.scss */
+  .navbar-default .navbar-right .btn {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
